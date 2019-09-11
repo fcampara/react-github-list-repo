@@ -28,6 +28,7 @@ module.exports = {
       { extensions: ['.jsx', '.js']}
     ],
     'semi': ['error', 'never'],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    "react/prefer-stateless-function": 'off'
   },
 };
